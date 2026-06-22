@@ -11,13 +11,13 @@ public class PaymentService {
         System.out.println("Paying...");
     }
 
-    @PostConstruct
-    public void afterInti(){
-        System.out.println("Before Paying...");
-    }
-
-    @PreDestroy
-    public void beforeDestroy(){
-        System.out.println("After Payment is done");
-    }
+//    @PostConstruct
+//    public void afterInti(){
+//        System.out.println("Before Paying...");
+//    }
+//
+//    @PreDestroy
+//    public void beforeDestroy(){
+//        System.out.println("After Payment is done");
+//    }
 }
